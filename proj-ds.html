@@ -21,17 +21,6 @@
     
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <!-- <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Hello, world!</h1>
-      <div class="self-pic">
-            <img src="img/AkshatVaidya.png" class="img-thumbnail rounded-circle mx-auto d-block" alt="" width="200" height="200"> 
-      </div>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p></p>
-        </div>
-      </div> -->
 
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="#"></a>
@@ -65,6 +54,25 @@
         <!-- Example row of columns -->
         <h4 class="heading">Data Science</h4>
         <hr>
+        <div class="row" style="padding-bottom: 8px">
+            <div class="card">
+              <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
+              <div class="card-body">
+                <h5 class="card-title">Elo Merchant Category Recommendation</h5>
+                <hr>
+                <p class="card-text"><em>BUDT 758T Data Mining and Predictive Analysis</em></p>
+                <p class="card-text"><em>Team Members: Akshat Vaidya, Deep Talati, Harsh Patel, Lei Xia and Xingyi Wang</em></p>
+                <p class="card-text text-justify">The aim of this project is to predict customer loyalty score for each unique card id. The focus was not only on predicting loyalty score correctly but also using as few variables as possible. The aim was also to make the model more <em>interpretable and explainable</em>.<br>
+                Used <em>Boosting and Random Forests</em> from the <em>LightGBM</em> library to implement the model. The model was entirely implemented in Python and used Matplotlib for visualization. Used Bayesian Optimizer for finding the optimum values of the hyper-parameters. 
+                <br>For making the model more interpretable, <a href="https://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf" target="_blank">SHAP values</a> were used which are both consistent and accurate. This was done since by using SHAP values, features could be universally compared across models. Used the SHAP library in Python for computing these values. Also, plotted graphs of important individual features to understand how their value affects the model predictions.
+                </p>
+                <p></p>
+                <a href="https://github.com/akshat24/elo-merchant" target="_blank">Link to Github Code File</a>
+              </div>
+            </div>
+        </div> <!-- row --> 
+
+
         <div class="row" style="padding-bottom: 8px">
             <div class="card">
               <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
